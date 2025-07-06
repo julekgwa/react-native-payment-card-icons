@@ -38,7 +38,7 @@ export function PaymentIcon({
   type,
   variant = 'flat',
   ...rest
-}: PaymentIconProps) {
+}: Readonly<PaymentIconProps>) {
   const componentName =
     type.replace(/(^|-)(\w)/g, (_, __, c) => c.toUpperCase()) +
     variant.charAt(0).toUpperCase() +
