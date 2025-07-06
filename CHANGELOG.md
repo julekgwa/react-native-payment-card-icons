@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>1.0.2 (2025-07-06)</small>
+
+* chore: mark props as read-only ([ad436f3](https://github.com/julekgwa/react-native-payment-card-icons/commit/ad436f3))
+
 ## <small>1.0.1 (2025-07-06)</small>
 
 * chore: update ci ([9bfaf75](https://github.com/julekgwa/react-native-payment-card-icons/commit/9bfaf75))
