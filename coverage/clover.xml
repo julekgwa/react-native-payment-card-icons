@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1751832658579" clover="3.2.0">
+  <project timestamp="1751832658579" name="All files">
+    <metrics statements="210" coveredstatements="120" conditionals="3" coveredconditionals="3" methods="104" coveredmethods="14" elements="317" coveredelements="137" complexity="0" loc="210" ncloc="210" packages="2" files="104" classes="104"/>
+    <package name="src">
+      <metrics statements="6" coveredstatements="6" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <file name="PaymentIcon.tsx" path="/private/tmp/react-native-payment-card-icons/src/PaymentIcon.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="43" count="51" type="stmt"/>
+        <line num="47" count="45" type="stmt"/>
+        <line num="49" count="45" type="cond" truecount="2" falsecount="0"/>
+        <line num="50" count="5" type="stmt"/>
+        <line num="53" count="5" type="stmt"/>
+        <line num="56" count="40" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/private/tmp/react-native-payment-card-icons/src/index.tsx">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.icons">
+      <metrics statements="204" coveredstatements="114" conditionals="0" coveredconditionals="0" methods="102" coveredmethods="12"/>
+      <file name="AlipayFlat.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/AlipayFlat.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="17" type="stmt"/>
+      </file>
+      <file name="AlipayFlatRounded.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/AlipayFlatRounded.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+      <file name="AlipayLogo.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/AlipayLogo.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+      <file name="AlipayLogoBorder.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/AlipayLogoBorder.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+      <file name="AlipayMono.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/AlipayMono.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+      <file name="AlipayMonoOutline.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/AlipayMonoOutline.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+      <file name="AmexFlat.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/AmexFlat.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+      </file>
+      <file name="AmexFlatRounded.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/AmexFlatRounded.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="AmexLogo.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/AmexLogo.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="AmexLogoBorder.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/AmexLogoBorder.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="AmexMono.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/AmexMono.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="AmexMonoOutline.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/AmexMonoOutline.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="DinersFlat.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/DinersFlat.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="DinersFlatRounded.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/DinersFlatRounded.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="DinersLogo.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/DinersLogo.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="DinersLogoBorder.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/DinersLogoBorder.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="DinersMono.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/DinersMono.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="DinersMonoOutline.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/DinersMonoOutline.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="DiscoverFlat.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/DiscoverFlat.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="DiscoverFlatRounded.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/DiscoverFlatRounded.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="DiscoverLogo.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/DiscoverLogo.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="DiscoverLogoBorder.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/DiscoverLogoBorder.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="DiscoverMono.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/DiscoverMono.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="DiscoverMonoOutline.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/DiscoverMonoOutline.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="EloFlat.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/EloFlat.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="EloFlatRounded.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/EloFlatRounded.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="EloLogo.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/EloLogo.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="EloLogoBorder.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/EloLogoBorder.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="EloMono.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/EloMono.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="EloMonoOutline.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/EloMonoOutline.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="GenericCardFlat.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/GenericCardFlat.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+      <file name="GenericCardFlatRounded.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/GenericCardFlatRounded.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="GenericCardLogo.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/GenericCardLogo.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="GenericCardLogoBorder.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/GenericCardLogoBorder.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="GenericCardMono.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/GenericCardMono.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="GenericCardMonoOutline.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/GenericCardMonoOutline.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="HiperFlat.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/HiperFlat.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="HiperFlatRounded.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/HiperFlatRounded.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="HiperLogo.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/HiperLogo.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="HiperLogoBorder.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/HiperLogoBorder.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="HiperMono.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/HiperMono.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="HiperMonoOutline.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/HiperMonoOutline.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="HipercardFlat.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/HipercardFlat.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="HipercardFlatRounded.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/HipercardFlatRounded.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="HipercardLogo.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/HipercardLogo.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="HipercardLogoBorder.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/HipercardLogoBorder.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="HipercardMono.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/HipercardMono.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="HipercardMonoOutline.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/HipercardMonoOutline.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="JcbFlat.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/JcbFlat.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="JcbFlatRounded.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/JcbFlatRounded.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="JcbLogo.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/JcbLogo.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="JcbLogoBorder.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/JcbLogoBorder.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="JcbMono.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/JcbMono.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="JcbMonoOutline.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/JcbMonoOutline.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="MaestroFlat.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/MaestroFlat.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="MaestroFlatRounded.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/MaestroFlatRounded.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="MaestroLogo.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/MaestroLogo.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="MaestroLogoBorder.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/MaestroLogoBorder.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="MaestroMono.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/MaestroMono.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="MaestroMonoOutline.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/MaestroMonoOutline.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="MastercardFlat.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/MastercardFlat.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="MastercardFlatRounded.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/MastercardFlatRounded.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="MastercardLogo.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/MastercardLogo.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="MastercardLogoBorder.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/MastercardLogoBorder.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="MastercardMono.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/MastercardMono.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="MastercardMonoOutline.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/MastercardMonoOutline.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="MirFlat.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/MirFlat.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="MirFlatRounded.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/MirFlatRounded.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="MirLogo.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/MirLogo.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="MirLogoBorder.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/MirLogoBorder.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="MirMono.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/MirMono.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="MirMonoOutline.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/MirMonoOutline.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="PaypalFlat.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/PaypalFlat.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="PaypalFlatRounded.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/PaypalFlatRounded.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="PaypalLogo.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/PaypalLogo.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="PaypalLogoBorder.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/PaypalLogoBorder.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="PaypalMono.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/PaypalMono.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="PaypalMonoOutline.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/PaypalMonoOutline.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="SecurityCodeFlat.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/SecurityCodeFlat.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="SecurityCodeFlatRounded.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/SecurityCodeFlatRounded.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="SecurityCodeFrontFlat.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/SecurityCodeFrontFlat.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="SecurityCodeFrontFlatRounded.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/SecurityCodeFrontFlatRounded.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="SecurityCodeFrontLogo.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/SecurityCodeFrontLogo.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="SecurityCodeFrontLogoBorder.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/SecurityCodeFrontLogoBorder.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="SecurityCodeFrontMono.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/SecurityCodeFrontMono.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="SecurityCodeFrontMonoOutline.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/SecurityCodeFrontMonoOutline.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="SecurityCodeLogo.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/SecurityCodeLogo.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="SecurityCodeLogoBorder.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/SecurityCodeLogoBorder.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="SecurityCodeMono.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/SecurityCodeMono.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="SecurityCodeMonoOutline.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/SecurityCodeMonoOutline.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="UnionpayFlat.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/UnionpayFlat.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="UnionpayFlatRounded.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/UnionpayFlatRounded.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="UnionpayLogo.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/UnionpayLogo.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="UnionpayLogoBorder.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/UnionpayLogoBorder.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="UnionpayMono.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/UnionpayMono.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="UnionpayMonoOutline.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/UnionpayMonoOutline.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="VisaFlat.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/VisaFlat.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="VisaFlatRounded.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/VisaFlatRounded.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="VisaLogo.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/VisaLogo.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="VisaLogoBorder.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/VisaLogoBorder.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="VisaMono.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/VisaMono.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="VisaMonoOutline.tsx" path="/private/tmp/react-native-payment-card-icons/src/icons/VisaMonoOutline.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

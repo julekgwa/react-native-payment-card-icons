@@ -1,0 +1,219 @@
+{
+  "name": "react-native-payment-card-icons",
+  "version": "1.0.0",
+  "description": "A collection of high-quality, customizable payment card brand icons (Visa, Mastercard, Maestro, Amex, and more) as React Native SVG components — fully compatible with React Native, Expo, and React Native Web for seamless cross-platform use.",
+  "main": "./lib/module/index.js",
+  "types": "./src/index.tsx",
+  "exports": {
+    ".": {
+      "source": "./src/index.tsx",
+      "types": "./src/index.tsx",
+      "default": "./lib/module/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "lib",
+    "android",
+    "ios",
+    "cpp",
+    "*.podspec",
+    "react-native.config.js",
+    "!ios/build",
+    "!android/build",
+    "!android/gradle",
+    "!android/gradlew",
+    "!android/gradlew.bat",
+    "!android/local.properties",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__",
+    "!**/.*"
+  ],
+  "scripts": {
+    "example": "yarn workspace react-native-payment-card-icons-example",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:update": "jest -u",
+    "test:ci": "jest --coverage --watchAll=false --passWithNoTests",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint \"**/*.{js,ts,tsx}\"",
+    "lint:fix": "eslint \"**/*.{js,ts,tsx}\" --fix",
+    "test:all": "yarn typecheck && yarn lint && yarn test",
+    "clean": "del-cli lib",
+    "build": "bob build",
+    "prepare": "bob build",
+    "prepack": "yarn clean && yarn build",
+    "release": "release-it",
+    "release:dry": "release-it --dry-run",
+    "generate-icons": "ts-node scripts/generate-icons.ts"
+  },
+  "keywords": [
+    "react-native",
+    "ios",
+    "android",
+    "expo",
+    "react-native-web",
+    "payment",
+    "cards",
+    "icons",
+    "svg",
+    "visa",
+    "mastercard",
+    "amex",
+    "american-express",
+    "maestro",
+    "discover",
+    "jcb",
+    "unionpay",
+    "paypal",
+    "alipay",
+    "elo",
+    "hipercard",
+    "hiper",
+    "mir",
+    "diners",
+    "credit-card",
+    "debit-card",
+    "payment-icons",
+    "brand-icons",
+    "components",
+    "library"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julekgwa/react-native-payment-card-icons.git"
+  },
+  "author": "Junius Lekgwara <phutigravel@gmail.com> (https://github.com/julekgwa)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julekgwa/react-native-payment-card-icons/issues"
+  },
+  "homepage": "https://github.com/julekgwa/react-native-payment-card-icons#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "@aaronfagan/ccicons": "^0.1.1",
+    "@commitlint/config-conventional": "^19.6.0",
+    "@eslint/compat": "^1.2.7",
+    "@eslint/eslintrc": "^3.3.0",
+    "@eslint/js": "^9.22.0",
+    "@evilmartians/lefthook": "^1.5.0",
+    "@react-native/babel-preset": "0.78.2",
+    "@react-native/eslint-config": "^0.78.0",
+    "@release-it/conventional-changelog": "^9.0.2",
+    "@svgr/cli": "^8.1.0",
+    "@svgr/plugin-jsx": "^8.1.0",
+    "@svgr/plugin-prettier": "^8.1.0",
+    "@svgr/plugin-svgo": "^8.1.0",
+    "@testing-library/jest-native": "^5.4.3",
+    "@testing-library/react-native": "^13.2.0",
+    "@types/jest": "^29.5.5",
+    "@types/node": "^24.0.10",
+    "@types/react": "^19.0.12",
+    "commitlint": "^19.6.1",
+    "del-cli": "^5.1.0",
+    "eslint": "^9.22.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.3",
+    "react": "19.0.0",
+    "react-native": "0.79.5",
+    "react-native-builder-bob": "^0.40.12",
+    "react-test-renderer": "19.0.0",
+    "release-it": "^17.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "workspaces": [
+    "example"
+  ],
+  "packageManager": "yarn@3.6.1",
+  "jest": {
+    "preset": "react-native",
+    "modulePathIgnorePatterns": [
+      "<rootDir>/example/node_modules",
+      "<rootDir>/lib/"
+    ],
+    "setupFilesAfterEnv": [
+      "<rootDir>/jest.setup.js"
+    ],
+    "testMatch": [
+      "**/__tests__/**/*.(test|spec).(js|jsx|ts|tsx)",
+      "**/?(*.)(test|spec).(js|jsx|ts|tsx)"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!src/**/*.d.ts",
+      "!src/icons/index.ts"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "release-it": {
+    "git": {
+      "commitMessage": "chore: release v${version}",
+      "tagName": "v${version}",
+      "requireBranch": "main"
+    },
+    "npm": {
+      "publish": true
+    },
+    "github": {
+      "release": true,
+      "releaseName": "v${version}"
+    },
+    "hooks": {
+      "before:init": [
+        "yarn test:all"
+      ],
+      "after:bump": "yarn build"
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "preset": {
+          "name": "angular"
+        },
+        "infile": "CHANGELOG.md"
+      }
+    }
+  },
+  "prettier": {
+    "quoteProps": "consistent",
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "es5",
+    "useTabs": false
+  },
+  "react-native-builder-bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      [
+        "module",
+        {
+          "esm": true
+        }
+      ]
+    ]
+  },
+  "create-react-native-library": {
+    "languages": "js",
+    "type": "library",
+    "version": "0.51.1"
+  },
+  "dependencies": {
+    "react-native-svg": "*"
+  }
+}
