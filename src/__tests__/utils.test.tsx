@@ -64,7 +64,7 @@ describe('PaymentIcon Utilities', () => {
 
       expect(invalidElement).toBeNull();
       expect(consoleSpy).toHaveBeenCalledWith(
-        '[PaymentIcon] Missing icon for type=nonexistent style=flat'
+        '[PaymentIcon] Missing icon for type=nonexistent variant=flat'
       );
 
       consoleSpy.mockRestore();
@@ -81,7 +81,7 @@ describe('PaymentIcon Utilities', () => {
 
       expect(invalidElement).toBeNull();
       expect(consoleSpy).toHaveBeenCalledWith(
-        '[PaymentIcon] Missing icon for type=ALIPAY style=flat'
+        '[PaymentIcon] Missing icon for type=ALIPAY variant=flat'
       );
 
       consoleSpy.mockRestore();

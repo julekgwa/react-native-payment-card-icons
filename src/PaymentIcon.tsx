@@ -48,7 +48,7 @@ export function PaymentIcon({
 
   if (!IconComponent) {
     console.warn(
-      `[PaymentIcon] Missing icon for type=${type} style=${variant}`
+      `[PaymentIcon] Missing icon for type=${type} variant=${variant}`
     );
     return null;
   }

@@ -83,10 +83,10 @@ describe('PaymentIcon Component', () => {
     expect(invalidVariantJSON()).toBeNull();
 
     expect(consoleSpy).toHaveBeenCalledWith(
-      '[PaymentIcon] Missing icon for type=invalid style=flat'
+      '[PaymentIcon] Missing icon for type=invalid variant=flat'
     );
     expect(consoleSpy).toHaveBeenCalledWith(
-      '[PaymentIcon] Missing icon for type=alipay style=invalid'
+      '[PaymentIcon] Missing icon for type=alipay variant=invalid'
     );
 
     consoleSpy.mockRestore();

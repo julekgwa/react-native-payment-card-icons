@@ -78,12 +78,15 @@ async function generateIcons(): Promise<void> {
                 },
               },
               {
+                name: 'convertStyleToAttrs',
+              },
+              {
                 name: 'removeXMLNS',
               },
               {
                 name: 'removeAttrs',
                 params: {
-                  attrs: '(xml.*)',
+                  attrs: '(xml.*|class|className)',
                 },
               },
             ],

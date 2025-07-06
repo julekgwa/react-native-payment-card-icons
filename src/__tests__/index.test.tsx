@@ -61,7 +61,7 @@ describe('PaymentIcon Library', () => {
 
       expect(toJSON()).toBeNull();
       expect(consoleSpy).toHaveBeenCalledWith(
-        '[PaymentIcon] Missing icon for type=invalid-type style=flat'
+        '[PaymentIcon] Missing icon for type=invalid-type variant=flat'
       );
 
       consoleSpy.mockRestore();
