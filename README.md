@@ -468,7 +468,7 @@ MIT © [Junius Lekgwara](https://github.com/julekgwa)
 
 ## Acknowledgments
 
-- Icons based on [CC Icons](https://github.com/aaronfagan/ccicons) by Aaron Fagan
+- Icons based on [CC Icons](https://github.com/aaronfagan/svg-credit-card-payment-icons) by Aaron Fagan
 - Built with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
 
 ---

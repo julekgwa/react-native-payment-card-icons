@@ -9,7 +9,9 @@ on:
   merge_group:
     types:
       - checks_requested
-
+env:
+  PACKAGES_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
+  
 jobs:
   lint:
     runs-on: ubuntu-latest
