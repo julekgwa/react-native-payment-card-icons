@@ -3,11 +3,11 @@
   "version": "1.0.2",
   "description": "A collection of high-quality, customizable payment card brand icons (Visa, Mastercard, Maestro, Amex, and more) as React Native SVG components — fully compatible with React Native, Expo, and React Native Web for seamless cross-platform use.",
   "main": "./lib/module/index.js",
-  "types": "./src/index.tsx",
+  "types": "./lib/typescript/src/index.d.ts",
   "exports": {
     ".": {
       "source": "./src/index.tsx",
-      "types": "./src/index.tsx",
+      "types": "./lib/typescript/src/index.d.ts",
       "default": "./lib/module/index.js"
     },
     "./package.json": "./package.json"
@@ -203,6 +203,12 @@
         "module",
         {
           "esm": true
+        }
+      ],
+      [
+        "typescript",
+        {
+          "project": "tsconfig.build.json"
         }
       ]
     ]
