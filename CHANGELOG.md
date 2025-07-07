@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>1.0.3 (2025-07-07)</small>
+
+* chore: export dts ([a6aee97](https://github.com/julekgwa/react-native-payment-card-icons/commit/a6aee97))
+
 ## <small>1.0.2 (2025-07-06)</small>
 
 * chore: mark props as read-only ([ad436f3](https://github.com/julekgwa/react-native-payment-card-icons/commit/ad436f3))
